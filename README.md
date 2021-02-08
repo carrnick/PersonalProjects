@@ -21,7 +21,7 @@ This repository holds personal projects that I have worked on. There are three c
 | [New York Crime](https://github.com/carrnick/PersonalProjects/tree/main/DataAnalysis/NewYorkCrime) | Data Analaysis | Analysis of reported crime in New York City.
 
 ## Contact Me
-| Method |  |
+|  |  |
 |--|--|
 | Email | nickbcarrolli@gmail.com |
 | LinkedIn | https://www.linkedin.com/in/nicholascarrolli/
