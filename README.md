@@ -1,6 +1,5 @@
 # Personal Projects
 
-## Index
 This repository holds personal projects that I have worked on. There are three categories:
 1) [Data Science Projects](https://github.com/carrnick/PersonalProjects/tree/main/DataScience)
 	- Projects containing statistical analysis, hypothesis testing, or machine learning
