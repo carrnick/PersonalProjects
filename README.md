@@ -24,5 +24,5 @@ This repository holds personal projects that I have worked on. There are three c
 | Method |  |
 |--|--|
 | Email | nickbcarrolli@gmail.com |
-| LinkedIn | (https://www.linkedin.com/in/nicholascarrolli/)
-| Portfolio | (https://carrnick.wixsite.com/portfolio/projects)
+| LinkedIn | https://www.linkedin.com/in/nicholascarrolli/
+| Portfolio | https://carrnick.wixsite.com/portfolio/projects
