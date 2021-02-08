@@ -11,7 +11,7 @@ This repository holds personal projects that I have worked on. There are three c
 ## Full List
 | Name | Type | Description |
 |-------|:--------:|:---------|
-| PyQuant | Library | Users can enter a stock ticker and receive visuals of technical indicators. Can also find most recent news articles for a company, along with sentiment scores and most common words.
+| PyNews | Library | Users can enter a stock ticker and receive most recent news articles for a company, along with sentiment scores and most common words.
 | PyPrep | Library |  A wrapper around Pandas and Sklearn that makes data cleaning and preprocessing easier
 | Effect of Climate on City Crime  | Data Science | Regression analysis and hypothesis tests to determine the relationship between average monthly temperature and frequency of crime in NYC.
 | Reuters Headlines Analysis | Data Science | Using Reuters financial news headlines and Sklearn libraries to determine if word frequency can predict if the S&P 500 will close higher or lower than the previous day.
