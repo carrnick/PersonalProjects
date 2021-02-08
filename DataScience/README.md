@@ -1,11 +1,12 @@
 <details>
 <summary> Effect of Climate on City Crime
 </summary>
-  Description: Regression analysis of monthly average temperature and frequency of crime in New York City
   
-  Project Goal: Determine if there is correlation between average temperature and frequency of crime. 
+  **Description**: Regression analysis of monthly average temperature and frequency of crime in New York City
   
-  Results: 
+ **Project Goal**: Determine if there is correlation between average temperature and frequency of crime. 
+  
+  **Results**: 
   
   - Strong evidence in a relationship between average temperature and frequency of crime.
   
