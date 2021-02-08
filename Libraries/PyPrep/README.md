@@ -11,17 +11,18 @@
  - `y` : String, default None
 
 ## Functions
-`PyPrep.head()`
->  Wrapper around Pandas head method
 
+#### Get numeric columns
 
 `PyPrep.get_numeric()`
  > Returns the numeric columns in the dataframe in list form
  
- 
+ #### Get categorical columns
+
 `PyPrep.get_categorical()`
 > Similar to *get_numeric()*, but returns a list of categorical columns
 
+#### Find missing data
 
 `PyPrep.get_missing(*type = 'list'*)`
 
@@ -31,6 +32,7 @@ Parameters:
 > *If type is "heatmap", the method returns a heatmap of null values for each column*  
 > *If type is "percentage", the method returns a bar plot of null values in each column*
 
+#### Find duplicate data
 
 `PyPrep.get_duplicates(plot = False*)`
 
@@ -39,6 +41,7 @@ Parameters:
 > *Returns the number of duplicate values in each column*  
 > *If `plot` is True, the method returns a barplot of the number of duplicate values in each column*  
 
+#### Find outliers using z-score
 
 `PyPrep.get_zscore(columns = None, threshold = 3)`
 
@@ -48,6 +51,7 @@ Parameters:
 > *Calculates the z-score of each numeric column in the DataFrame*  
 > *Returns rows where the z-score is greater than or equal to `threshold` argument*  
 
+#### Fidn repetitive categorical data
 
 `PyPrep.get_repetitive(threshold = .95)`
 
@@ -55,6 +59,7 @@ Parameters:
  - `threshold :  Float <= .99`
 > *Returns columns that have reptitive values greater than or equal to `threshold` argument*  
 
+#### Find k-best independent variables
 
 `PyPrep.select_best(columns, k = 5, dtype = 'numeric', plot = False)`
 
@@ -66,10 +71,12 @@ Parameters:
 > *Wrapper around Sklearn  [SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)*  
 > *Selects `k` most statistically significant rows*
 
+#### Get correlation plot
 
 `PyPrep.corr_plot()`
 > *Returns a correlation plot between numeric values and target variable*
 
+#### Encode categorical data
 
 `PyPrep.encode(*columns = None, method = 'onehot', drop = False)`
 
