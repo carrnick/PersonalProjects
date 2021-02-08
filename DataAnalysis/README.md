@@ -4,5 +4,7 @@
 ### Projects at a Glance
 <details>
 <summary>Click this to collapse/fold.
+</summary>
   
-  hello</summary>
+  hello
+  </details>
