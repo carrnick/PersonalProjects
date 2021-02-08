@@ -2,11 +2,11 @@
 
 ## Index
 This repository holds personal projects that I have worked on. There are three categories:
-1) Data Science Projects
+1) [Data Science Projects](https://github.com/carrnick/PersonalProjects/tree/main/DataScience)
 	- Projects containing statistical analysis, hypothesis testing, or machine learning
-2) Data Analysis Projects
+2) [Data Analysis Projects](https://github.com/carrnick/PersonalProjects/tree/main/DataAnalysis)
 	- Projects containing exploratory data analysis (EDA)
-3) Libraries
+3) [Libraries](https://github.com/carrnick/PersonalProjects/tree/main/Libraries)
 	- Python libraries/scripts I wrote to make tasks easier for projects I work on
 ## Full List
 | Name | Type | Description |
