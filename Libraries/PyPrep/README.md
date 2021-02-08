@@ -32,7 +32,7 @@ Parameters:
 > *If type is "percentage", the method returns a bar plot of null values in each column*
 
 
-`PyPrep.get_duplicates(*plot = False*)`
+`PyPrep.get_duplicates(plot = False*)`
 
 Parameters: 
  - `plot :  Boolean`
@@ -40,7 +40,7 @@ Parameters:
 > *If `plot` is True, the method returns a barplot of the number of duplicate values in each column*  
 
 
-`PyPrep.get_zscore(*columns = None, threshold = 3*)`
+`PyPrep.get_zscore(columns = None, threshold = 3)`
 
 Parameters: 
  - `columns : List of Columns`
@@ -49,14 +49,14 @@ Parameters:
 > *Returns rows where the z-score is greater than or equal to `threshold` argument*  
 
 
-`PyPrep.get_repetitive(*threshold = .95*)`
+`PyPrep.get_repetitive(threshold = .95)`
 
 Parameters: 
  - `threshold :  Float <= .99`
 > *Returns columns that have reptitive values greater than or equal to `threshold` argument*  
 
 
-`PyPrep.select_best(*columns, k = 5, dtype = 'numeric', plot = False*)`
+`PyPrep.select_best(columns, k = 5, dtype = 'numeric', plot = False)`
 
 Parameters: 
  - `columns :  List of Columns`
