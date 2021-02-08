@@ -24,6 +24,7 @@
 
 
 `PyPrep.get_missing(*type = 'list'*)`
+
 Parameters: 
  - `type :  String: list, heatmap, percentage`
 > *If type is "list", the method returns a list of null values for each column*  
@@ -32,6 +33,7 @@ Parameters:
 
 
 `PyPrep.get_duplicates(*plot = False*)`
+
 Parameters: 
  - `plot :  Boolean`
 > *Returns the number of duplicate values in each column*  
@@ -39,6 +41,7 @@ Parameters:
 
 
 `PyPrep.get_zscore(*columns = None, threshold = 3*)`
+
 Parameters: 
  - `columns : List of Columns`
  - `threshold` :  Integer
@@ -47,12 +50,14 @@ Parameters:
 
 
 `PyPrep.get_repetitive(*threshold = .95*)`
+
 Parameters: 
  - `threshold :  Float <= .99`
 > *Returns columns that have reptitive values greater than or equal to `threshold` argument*  
 
 
 `PyPrep.select_best(*columns, k = 5, dtype = 'numeric', plot = False*)`
+
 Parameters: 
  - `columns :  List of Columns`
  - `k** : Number of variables to select`
@@ -67,6 +72,7 @@ Parameters:
 
 
 `PyPrep.encode(*columns = None, method = 'onehot', drop = False)`
+
 Parameters: 
  - `columns :  List of Columns`
  - `method: String : 'onehot' or 'label'`
