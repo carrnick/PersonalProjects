@@ -18,7 +18,7 @@ This repository holds personal projects that I have worked on. There are three c
 | [Fraud Detection using Keras](https://github.com/carrnick/PersonalProjects/tree/main/DataScience/FraudDetection) | Data Science | Sequential TensorFlow model to determine if a transaction is fraudulent or valid
 | [Predicting NBA Positions](https://github.com/carrnick/PersonalProjects/tree/main/DataScience/ML-NBA-Positions) | Data Science | Predicting an NBA player's position using machine learning and in-game player statistics from 1980 to 2020.
 | [California Car Crashes](https://github.com/carrnick/PersonalProjects/tree/main/DataAnalysis/CACarCrashes) | Data Analysis | Analysis of car crashes in California using Python and Tableau.
-| [New York Crime](https://github.com/carrnick/PersonalProjects/tree/main/DataAnalysis/NewYorkCrime) | Data Analaysis | Analysis of reported crime in New York City.
+| [New York Crime](https://github.com/carrnick/PersonalProjects/tree/main/DataAnalysis/NewYorkCrime) | Data Analysis | Analysis of reported crime in New York City.
 
 ## Contact Me
 |  |  |
