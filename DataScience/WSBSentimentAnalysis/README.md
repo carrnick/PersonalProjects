@@ -10,16 +10,12 @@ Reddit was the center of the financial news world in early 2021, as members of t
 
 The WallStreetBets subreddit acted as the headquarters for coordinating and executing a massive market movement against wealthy hedge fund owners. By using Python's sentiment analysis libraries, we can get a better idea of what was being said and of the underlying emotions in the posts. 
 
-
-
 # Libraries Used 
 
 - [vaderSentiment](https://pypi.org/project/vaderSentiment/) 
 - [Spacy](https://spacy.io/)
 - [text2emotion](https://pypi.org/project/text2emotion/)
 - [Nltk](https://www.nltk.org/)
-
-
 
 # Results 
 
@@ -45,7 +41,6 @@ The WallStreetBets subreddit acted as the headquarters for coordinating and exec
 
 ![num_comments_day](https://user-images.githubusercontent.com/70597605/107979489-a2a8ad00-6f8c-11eb-9b4c-7cb09b95f878.png)
 
-
 ### What Happened on January 29?
 
 January 29, 2021 was a day of extreme volatility on the stock market, and was the day WallStreetBets was most active.
@@ -60,28 +55,23 @@ January 29, 2021 was a day of extreme volatility on the stock market, and was th
 
 ![sentiment20min](https://user-images.githubusercontent.com/70597605/107979505-a76d6100-6f8c-11eb-92bc-242cd456eb96.png)
 
-![sentiment20min_pctchange](https://user-images.githubusercontent.com/70597605/107979502-a6d4ca80-6f8c-11eb-8b35-5e9d61881b3d.png)
+![pct_change20](https://user-images.githubusercontent.com/70597605/107979834-3ed2b400-6f8d-11eb-884b-368563059a26.png)
 
 ### Distribution of Sentiments (Hourly interval)
 
-
-
 ![sentimenthour](https://user-images.githubusercontent.com/70597605/107979509-a76d6100-6f8c-11eb-89da-6d70e335eb5e.png)
 
-![sentimenthour_pct](https://user-images.githubusercontent.com/70597605/107979508-a76d6100-6f8c-11eb-9f2b-65434fbd589d.png)
-
+![pct_changehour](https://user-images.githubusercontent.com/70597605/107979838-3f6b4a80-6f8d-11eb-8569-1331d7480c55.png)
 
 ### Distribution of Sentiments (Daily interval)
 
 ![sentiment_day](https://user-images.githubusercontent.com/70597605/107979494-a50b0700-6f8c-11eb-9aee-91038e8c14f9.png)
 
-![sentimentday_pct](https://user-images.githubusercontent.com/70597605/107979506-a76d6100-6f8c-11eb-9d93-cc9ec2380965.png)
+![pct_changeday](https://user-images.githubusercontent.com/70597605/107979840-4003e100-6f8d-11eb-987b-35df23b90de4.png)
 
 ### Emotion of Posts 
 
 ![emotion](https://user-images.githubusercontent.com/70597605/107979475-9f152600-6f8c-11eb-8c82-bcde476650de.png)
-
-
 
 ### Correlation Matrix 
 
