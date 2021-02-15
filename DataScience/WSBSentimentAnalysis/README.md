@@ -10,6 +10,8 @@ Reddit was the center of the financial news world in early 2021, as members of t
 
 The WallStreetBets subreddit acted as the headquarters for coordinating and executing a massive market movement against wealthy hedge fund owners. By using Python's sentiment analysis libraries, we can get a better idea of what was being said and of the underlying emotions in the posts. 
 
+[Code](https://github.com/carrnick/PersonalProjects/blob/main/DataScience/WSBSentimentAnalysis/wsbets.ipynb)
+
 # Libraries Used 
 
 - [vaderSentiment](https://pypi.org/project/vaderSentiment/) 
